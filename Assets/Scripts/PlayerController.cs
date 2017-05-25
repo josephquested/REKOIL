@@ -7,10 +7,12 @@ public class PlayerController : MonoBehaviour {
 	// SYSTEM //
 
 	Rigidbody2D rb;
+	Animator anim;
 
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator>();
 	}
 
 	// INPUT //
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Fire (Vector2 direction)
 	{
+		anim.SetTrigger("Fire");
 		GameObject projectileObj = Instantiate(projectilePrefab, transform.position, transform.rotation);
 		projectileObj.GetComponent<Rigidbody2D>().AddForce(direction * projectileForce, ForceMode2D.Impulse);
 		rb.AddForce(-direction * thrust, ForceMode2D.Impulse);

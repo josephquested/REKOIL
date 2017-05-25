@@ -1,7 +1,12 @@
-sound effect when player shoots, randomised pitch []
+player fire trigger sets animation []
+sound effect when player shoots, randomised pitch [x]
 player can jump up and land on platforms [x]
 platforms exist [x]
 player shoots little projectile prefab on keypress [x]
 player can press direction arrow keys for a small thrust in the opposite direction [x]
 very basic player sprite [x]
 player object exists [x]
+
+possibles:
+
+bar on screen heats up as you fire, if you fire too frequently and fill the bar, you explode,
