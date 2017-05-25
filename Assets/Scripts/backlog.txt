@@ -1,4 +1,7 @@
-player fire trigger sets animation []
+block sprite should update when damaged []
+blocks can be damaged twice then die when hit three times [x]
+projectiles are destroyed on impact with blocks [x]
+player fire trigger sets animation [x]
 sound effect when player shoots, randomised pitch [x]
 player can jump up and land on platforms [x]
 platforms exist [x]
@@ -7,6 +10,6 @@ player can press direction arrow keys for a small thrust in the opposite directi
 very basic player sprite [x]
 player object exists [x]
 
-possibles:
+backlog:
 
 bar on screen heats up as you fire, if you fire too frequently and fill the bar, you explode,
